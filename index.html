@@ -1,0 +1,286 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66428408-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66428408-3');
+</script>
+
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+<style type="text/css">
+    body {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight:300;
+        font-size:18px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+    }
+
+    h1 {
+        font-weight:300;
+    }
+
+    .disclaimerbox {
+        background-color: #eee;
+        border: 1px solid #eeeeee;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+        padding: 20px;
+    }
+
+    video.header-vid {
+        height: 140px;
+        border: 1px solid black;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+    }
+
+    img.header-img {
+        height: 140px;
+        border: 1px solid black;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+    }
+
+    img.rounded {
+        border: 1px solid #eeeeee;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+    }
+
+    a:link,a:visited
+    {
+        color: #1367a7;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #208799;
+    }
+
+    td.dl-link {
+        height: 160px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+        box-shadow:
+                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+                5px 5px 0 0px #fff, /* The second layer */
+                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+                10px 10px 0 0px #fff, /* The third layer */
+                10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+                15px 15px 0 0px #fff, /* The fourth layer */
+                15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+                20px 20px 0 0px #fff, /* The fifth layer */
+                20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+                25px 25px 0 0px #fff, /* The fifth layer */
+                25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+        margin-left: 10px;
+        margin-right: 45px;
+    }
+
+
+    .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+        box-shadow:
+                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+                5px 5px 0 0px #fff, /* The second layer */
+                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+                10px 10px 0 0px #fff, /* The third layer */
+                10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 30px;
+        margin-bottom: 5px;
+    }
+
+    .vert-cent {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    hr
+    {
+        border: 0;
+        height: 1.5px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+</style>
+
+<html>
+  <head>
+        <title>PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization</title>
+        <meta property="og:title" content="PIFuHD" />
+        <meta property="og:image" content="https://shunsukesaito.github.io/PIFuHD/resources/images/teaser.png" />
+        <!-- <meta property="og:url" content="https://youtu.be/S1FpjwKqtPs" /> -->
+  </head>
+
+  <body>
+    <br>
+    <center>
+    <span style="font-size:42px">PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization</span>
+    
+    </center>
+
+    <br><br>
+      <table align=center width=800px>
+       <tr>
+         <td align=center width=100px>
+          <center>
+          <span style="font-size:20px"><a href="http://www-scf.usc.edu/~saitos/">Shunsuke Saito<sup>1,3</sup></a></span>
+          </center>
+         </td>
+        <td align=center width=100px>
+          <center>
+          <span style="font-size:20px"><a href="https://scholar.google.com/citations?user=7aabHgsAAAAJ">Tomas Simon<sup>2</sup></a></span>
+          </center>
+        </td>
+        <td align=center width=100px>
+          <center>
+          <span style="font-size:20px"><a href="https://scholar.google.com/citations?hl=en&user=ss-IvjMAAAAJ">Jason Saragih<sup>2</sup></a></span>
+          </center>
+        </td>
+        <td align=center width=100px>
+          <center>
+          <span style="font-size:20px"><a href="https://jhugestar.github.io/">Hanbyul Joo<sup>3</sup></a></span>
+          </center>
+        </td>
+     </tr>
+    </table>
+
+    <table align=center width=800px>
+       <tr>
+        <td align=center width=100px>
+        <center>
+        <span style="font-size:16px"><br/>University of Southern California<sup>1</sup><br/>Facebook Reality Labs<sup>2</sup><br/>Facebook AI Research<sup>3</sup><br/></span>
+        </center>
+        </td>
+     </tr>
+    </table>
+
+    <br>
+    <table align=center width=400px>
+     <tr>
+       <td align=center width=100px>
+       <center>
+       <span style="font-size:20px"><a href="https://arxiv.org/pdf/2004.00452.pdf">[Paper]</a></span>
+       </center>
+       </td>
+
+      <!-- <td align=center width=100px>
+      <center>
+      <span style="font-size:20px"><a href="https://youtu.be/S1FpjwKqtPs">[Video]</a></span>
+      </center>
+      </td> -->
+       
+      <td align=center width=100px>
+      <center>
+      <span style="font-size:20px"><a href="https://github.com/shunsukesaito/PIFuHD">[Code]</a></span>
+      </center>
+      </td>
+      
+   </tr>
+  </table>
+
+            <br>
+            <br>
+            <table align=center width=600px>
+                <tr>
+                    <td width=600px>
+                      <center>
+                          <a href="https://arxiv.org/pdf/2004.00452.pdf"><img src = "./resources/images/teaser.png" height="300px"></img></href></a><br>
+                    </center>
+                    </td>
+                </tr>
+                    <td width=600px>
+                      <center>
+                          <span style="font-size:14px"><i>
+                            We introduce a multi-level framework that infers 3D geometry of clothed humans at an unprecedentedly high 1k image resolution in a pixel-aligned manner, retaining the details in the original inputs without any post-processing.</i>
+                    </center>
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+              <div style="max-width:90%; margin:0 auto">
+                Recent advances in image-based 3D human shape estimation have been driven by the significant improvement in representation power afforded by deep neural networks. Although current approaches have demonstrated the potential in real world settings, they still fail to produce reconstructions with the level of detail often present in the input images. We argue that this limitation stems primarily form two conflicting requirements; accurate predictions require large context, but precise predictions require high resolution. Due to memory limitations in current hardware, previous approaches tend to take low resolution images as input to cover large spatial context, and produce less precise (or low resolution) 3D estimates as a result. We address this limitation by formulating a multi-level architecture that is end-to-end trainable. A coarse level observes the whole image at lower resolution and focuses on holistic reasoning. This provides context to an fine level which estimates highly detailed geometry by observing higher-resolution images. We demonstrate that our approach significantly outperforms existing state-of-the-art techniques on single image human shape reconstruction by fully leveraging 1k-resolution input images.<br><br>
+              </div>
+          <hr>
+         <!-- <table align=center width=550px> -->
+            <table align=center width=800>
+             <center><h1>Paper</h1></center>
+                <tr>
+                  <td><a href="https://arxiv.org/pdf/2004.00452.pdf"><img style="height:200px" src="./resources/images/paper.png"/></a></td>
+                  <td><span style="font-size:14pt">S. Saito, T. Simon, J. Saragih, H. Joo.<br><br>
+                    PIFuHD: Multi-Level Pixel-Aligned Implicit Function </br>for High-Resolution 3D Human Digitization<br><br>
+                    CVPR 2020 (Oral Presentation).<br><br>
+                    <a href="https://arxiv.org/pdf/2004.00452.pdf">[pdf]</a> &nbsp; &nbsp;
+                    <a href="https://shunsukesaito.github.io/PIFuHD/resources/bibtex.txt">[Bibtex]</a>
+                    </td>
+              </tr>
+            </table>
+          <br>
+
+                <!-- <hr>
+                <center><h1>Paper Video</h1></center>
+                <table align=center width=900px>
+                    <tr>
+                        <td width=600px>
+                          <center>
+                            <div class = "video">
+                              <iframe width="720" height="405" src="https://youtube.com/embed/S1FpjwKqtPs" frameborder="0" allowfullscreen></iframe>
+                           </div>
+                        </center>
+                        </td>
+                    </tr>
+                </table>
+                <br> -->
+          <hr>
+
+         <center><h1>Code</h1></center>
+            <table align=center width=1000px>
+                <tr>
+                        <center>
+                          <a href='https://github.com/shunsukesaito/PIFuHD'><img class="round" style="height:250" src="./resources/images/overview.png"/></a>
+                        </center>
+              </tr>
+          </table>
+
+            <table align=center width=800px>
+              <tr><center> <br>
+                <span style="font-size:28px">&nbsp;<a href='https://github.com/shunsukesaito/PIFuHD'>[GitHub]</a>
+                  
+                <span style="font-size:28px"></a></span>
+              <br>
+              </center></tr>
+          </table>
+            <br>
+          <hr>
+
+
+            <table align=center width=1000px>
+                <tr>
+                    <td>
+                      <left>
+                <center><h1>Acknowledgements</h1></center>
+                    <div style="max-width: 90%; margin:0 auto">
+                      This webpage template was borrowed from <a href="https://richzhang.github.io/colorization/">colorful folks</a>.
+                    </div>
+                </left>
+        </td>
+        </tr>
+        </table>
+
+        <br><br>
+</body>
+</html>

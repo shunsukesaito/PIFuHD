@@ -1,0 +1,7 @@
+@InProceedings{saito2020pifuhd,
+author = {Saito, Shunsuke and Simon, Tomas and Saragih, Jason and Joo, Hanbyul},
+title = {PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization},
+booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+month = {June},
+year = {2020}
+}
