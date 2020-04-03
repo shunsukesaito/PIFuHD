@@ -5,7 +5,7 @@ News:
 
 This repository contains an official pytorch implementation of "[PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization](https://shunsukesaito.github.io/PIFuHD)".
 
-[Project Page](https://shunsukesaito.github.io/PIFuHD/)
+[Project Page](https://shunsukesaito.github.io/PIFuHD/)  
 ![Teaser Image](https://shunsukesaito.github.io/PIFuHD/resources/images/teaser.png)
 
 If you find the code useful in your research, please consider citing the paper.
