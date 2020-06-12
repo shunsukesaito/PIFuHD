@@ -1,9 +1,9 @@
 # PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization
 
+## Code is released in [facebook repository](https://github.com/facebookresearch/pifuhd). This repository will no longer be updated.
 News:
+* \[2020/06/12\] Code is released in [facebook repository](https://github.com/facebookresearch/pifuhd). This repository will no longer be updated.
 * \[2020/04/02\] Project page updated. Code and model will come soon...
-
-This repository contains an official pytorch implementation of "[PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization](https://shunsukesaito.github.io/PIFuHD)".
 
 [Project Page](https://shunsukesaito.github.io/PIFuHD/)  
 ![Teaser Image](https://shunsukesaito.github.io/PIFuHD/resources/images/teaser.png)
